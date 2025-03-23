@@ -1,0 +1,41 @@
+input{
+    border:1px solid black;
+    font-size:10px;
+    width:200px;
+    border-radius:5px;
+    padding:2px;
+    height:20px;
+}
+.home-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+ .home-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .form-text {
+    position: absolute;
+    top: 25%;
+    left:50%;
+    font-weight: bold;
+    left:150px;
+   
+  }
+  label{
+    color:white;;
+    margin-left:0px;
+  }
+  .butt{
+    width:40%;
+    background-color:lightgreen;
+    color:black;
+    border-radius:5px;
+    border:1px solid black;
+
+  }
+  
